@@ -24,7 +24,7 @@ ggplot(data = climate_data[climate_data$Entity != "World",],
        aes(x = Date, y = temperature_anomaly, color = Entity)) +
   geom_line()
 
-#--Prompt 2--
+#--Prompt 2 + Prompt 3--
 USdat <- datCO2[datCO2$Entity =="United States",]
 MEdat <- datCO2[datCO2$Entity == "Mexico",]
 CANdat <- datCO2[datCO2$Entity == "Canada",]
